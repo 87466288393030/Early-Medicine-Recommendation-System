@@ -24,7 +24,7 @@ diets = pd.read_csv("datasets/diets.csv")
 
 
 # load model===========================================
-svc = pickle.load(open('models/svc.pkl','rb'))
+svc = pickle.load(open('model/svc.pkl','rb'))
 
 
 #============================================================
